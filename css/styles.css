@@ -1,0 +1,27 @@
+
+
+
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image: url('http://dent.umich.edu/sites/default/themes/gimmelshtump/images/new7-main-top-shadow.jpg');
+    background-position-y: -150px;
+    background-repeat: repeat-x;
+    background-position: 0 -150px;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.portfolio-item .img-responsive {
+  box-shadow: 0 0 7px #222;
+}
+
+
+@media (max-width:750px) {
+    .page-header {
+      margin-top:0;
+  }
+}

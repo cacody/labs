@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+html {
+    position: relative;
+    min-height: 100%;}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.karma {font-family: 'Karma', serif;}
+.karma-light {font-family: 'Karma', serif; font-weight: 300;}
+
+/*overwrite bootstrap default nav style*/
+.navbar .navbar-custom .navbar-nav>li>a{color:#ffcb05;
+
+}
+
+/* navbar */
+.navbar-custom {
+    background-color: #000;
+}
+/* LINK STYLE */
+a:link {
+        color: #87BEEC ;
+}
+ul.nav li a, ul.nav li a:visited {
+    color: #ffcb05 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #fff !important;
+    text-decoration: underline;
+        background-color: #000;
+}
+
+ul.nav li.active a {
+    color: #ffcb05 !important;
+}
+
+/* unvisited link */
+a.headlinelink:link {
+    color: #fff;
+}
+
+/* visited link */
+a.headlinelink:visited {
+	color:#fff;
+}
+
+/* mouse over link */
+a.headlinelink:hover {
+	color:#ffcb05;
+    text-decoration: none;
+}
+
+/* selected link */
+a.headlinelink:active {
+    color: #fff;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a
+ {background-color: #3c3c3c;
+background-image: none;}
+
+/* overwrite bootstrap default styling for nav tabs */
+.nav-tabs {border-bottom: 0;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+background-color: #000;}
+
+
+/* MAKE IMAGES RESPOND */
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+.blue-text {
+    color: #87BEEC ;
+}
+
+.white-text {
+    color: #fff;
+}
+.large-text {
+    font-size: 1.5em;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+
+.white-border {
+    border: 1px solid #fff;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'Karma', serif;
+}
+
+/*STICKY FOOTER*/
+
+.footer {
+
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%;
+  background-color: #000;
+}
+
+
+/* OTHER STYLING */
+#top {
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-position: top center;
+}
+
+@media (min-width:1600px) {
+#top {
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    background-position: top center;
+    }
+}
+@media (max-width: 600px) {
+#top {
+  background: #fff no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 100px;
+	}
+}
+.panel {
+    border-radius: 0px;
+}
+.panel-body {
+background: #3e3e3e;
+}
+
+.semi-trans {
+background-color:rgba(0,0,0,0.65);
+}
+
+.less-trans {
+background-color:rgba(0,0,0,0.85);
+}
+.float-bottom {
+position: absolute;
+    bottom: 70px;
+    max-width: 500px;
+}
+
+@media (max-width: 600px) {
+    .float-bottom {
+position: inherit;
+
+}
+    
+/* Styles to help the publication feed from PubMed */
+
+  #publications .panel-body p:nth-child(2) {display:none;} /* Hide display of duplicate title */
+  #publications .panel-body p:nth-child(5) {display:none;} /* Hide display of abstract. Optionally can show */
+  #publications table {margin-bottom: 20px;} /* Default layout from PubMed feed too cramped */
+

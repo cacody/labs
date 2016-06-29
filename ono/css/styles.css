@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+html {
+    position: relative;
+    min-height: 100%;}
+
+/* LINK STYLE */
+ul.nav li a, ul.nav li a:visited {
+    color: #00274c !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #406990 !important;
+    text-decoration: underline;
+}
+
+ul.nav li.active a {
+    color: #00274c !important;
+}
+
+/* unvisited link */
+a.headlinelink:link {
+    color: #fff;
+}
+
+/* visited link */
+a.headlinelink:visited {
+	color:#fff;
+}
+
+/* mouse over link */
+a.headlinelink:hover {
+	color:#ffcb05;
+    text-decoration: none;
+}
+
+/* selected link */
+a.headlinelink:active {
+    color: #fff;
+}
+
+/* MAKE IMAGES RESPOND */
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+/* TYPOGRAPHY */
+.blue-text {
+    color: #00274c;
+}
+
+.white-text {
+    color: #fff;
+}
+.large-text {
+    font-size: 1.5em;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+.karma-light {
+    font-family: 'Karma', serif;
+    font-weight: 300;}
+.karma {
+    font-family: 'Karma', serif;
+}
+/*STICKY FOOTER*/
+
+.footer {
+
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%;
+  background-color: #00274c;
+}
+
+
+/* OTHER STYLING */
+#top {
+    background: url(../images/ono-2.jpg) no-repeat;
+    background-size: cover;
+    min-height: 700px;
+
+    max-width: 100%
+}
+
+@media (max-width: 600px) {
+#top {
+  background: #fff no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 100px;
+	}
+}
+
+.semi-trans {
+background-color:rgba(0,0,0,0.85);
+}
+
+}
+.less-trans {
+background-color:rgba(0,0,0,0.85);
+}
