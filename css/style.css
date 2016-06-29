@@ -1,0 +1,116 @@
+
+
+
+
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image: url('http://dent.umich.edu/sites/default/themes/gimmelshtump/images/new7-main-top-shadow.jpg');
+    background-position-y: -150px;
+    background-repeat: repeat-x;
+    background-position: 0 -150px;
+}
+
+.page-header {
+  border-bottom: none;
+  margin:0;
+  padding:0;
+}
+
+.portfolio-item .img-responsive {
+  box-shadow: 0 0 7px #222;
+}
+
+#themeSelector {
+	margin-bottom: 20px;
+}
+
+#chooseTheme {
+	display:inline-block;
+	float:left;
+	margin-top:5px;
+}
+
+#searchFilter {
+	float:right;
+}
+	
+#researchTheme {
+	display:inline-block;
+	margin-top:5px;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+	color: #587abc;
+	font-size:21px;
+	
+}
+
+.media-labs-button {
+	background: rgba(255,203,5,.4);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+	border:none;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	border-radius:0;
+
+}
+
+h2.themeValue {
+	padding: 14px 15px;
+    margin: 0;
+    font-size: 21px;
+    color: #00274c;
+    background: rgba(255,203,5,.2);
+	display: inline-block;
+	visibility: hidden;
+}
+
+.iconclose {
+	color: #587abc;
+}
+
+input {
+  padding: 10px 15px;
+  margin-top: 5px;
+  font-size: 21px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+
+
+@media (max-width:750px) {
+    .page-header {
+      margin-top:0;
+  }
+
+}
+
+@media (max-width:992px) {
+	#searchFilter {
+	  clear: both;
+	  display: block;
+	  float: left;
+	}
+	
+}
+
+
+

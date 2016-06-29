@@ -17,8 +17,7 @@
   <!-- Custom styles-->
   <!-- Custom CSS -->
   <link href="css/3-col-portfolio.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/mix.css">
+  <link rel="stylesheet" href="css/styles.css">
   <!-- Google Fonts-->
   <link href='http://fonts.googleapis.com/css?family=Karma:400,300' rel='stylesheet' type='text/css'>
 
@@ -31,8 +30,6 @@
 
 </head>
 <body>
-
-
 
 
 
@@ -50,44 +47,20 @@
 		</a>
 	    </div>
             <div class="col-xs-12 col-sm-9 col-md-10 col-lg-9">
-                <h1 class="page-header">Research Labs</h1>
-				<p><a href="http://dent.umich.edu/research">Office of Research</a> At the University of Michigan School of Dentistry</p>
+                <h1 class="page-header">Research Labs
+                   <br> <small>At the University of Michigan School of Dentistry</small>
+                </h1>
             </div>
-		</div><!-- ./row -->
-		<div id="themeSelector" class="row col-md-12">
-            	<div id="chooseTheme">
-	
-			<ul class="nav nav-pills">
-				<li role="presentation" class="dropdown">
-					<a class="dropdown-toggle media-labs-button" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-					Choose a Research Theme<span class="caret"></span>	
-					</a>
-					<ul class="dropdown-menu">
-					   	<li class="filter" data-filter="all"><a href="#">All</a></li>
-			            <li class="filter" data-filter=".theme1"><a href="#">Craniofacial, Skeletal Biology and Disease</a></li>
-			            <li class="filter" data-filter=".theme2"><a href="#">Cancer Biology and Therapeutics</a></li>
-			            <li class="filter" data-filter=".theme3"><a href="#">Tissue Engineering and Regenerative Medicine </a></li>
-			            <li class="filter" data-filter=".theme4"><a href="#">Clinical, Population, and Educational Research</a></li>
-					</ul>
-				</li>
-			</ul>
-
-            </div>
- 			<div id="researchTheme" class="pull-left">
- 				<h2 class="themeValue"></h2>
- 			</div>
-            <div id="searchFilter"><input type="text" id="input" placeholder="Type to Narrow List"></div>
         </div>
         <!-- /.row -->
 
         <!-- Projects Row -->
 
+        <div class="row">
 
-
-
-        <div id="sortme" class="row">           
+        
             <!-- Bradley Lab-->
-            <div class="mix theme1 col-sm-4 col-md-4 portfolio-item" data-myorder="1">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/bradley-lab">
                     <img class="img-responsive" src="images/bradley-thumb.jpg" alt="">
                 </a>
@@ -98,18 +71,18 @@
             </div> 
  
             <!-- Cariology Research Lab-->
-            <div class="mix theme4 col-sm-4 col-md-4 portfolio-item" data-myorder="2">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/crse/cariology-research-laboratory">
                     <img class="img-responsive" src="images/generic-thumb3.jpg" alt="">
                 </a>
                 <h3>
-                    <a href="http://dent.umich.edu/about-school/department/crse/cariology-research-laboratory">Cariology Research Lab<br><small>Carlos González-Cabezas, DDS, MSD, PhD,<br> Margherita Fontana, DDS, PhD</small></a>
+                    <a href="http://dent.umich.edu/about-school/department/crse/cariology-research-laboratory">Cariology Research Lab<br><small>Carlos González-Cabezas, DDS, MSD, PhD, Margherita Fontana, DDS, PhD</small></a>
                 </h3>
                 <p>The Cariology Research Lab's research interests relate primarily to caries management in children, including risk assessment (and interprofessional care models), dental sealants, and oral biofilms as it relates to caries development and/or prevention (and included in this area, therapies that may affect the biofilm, such as xylitol, silver diammine fluoride, etc).</p>
             </div> 
         
             <!-- Cevidanes Lab-->
-            <div class="mix col-sm-4 theme4 col-md-4 portfolio-item" data-myorder="3">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="https://sites.google.com/a/umich.edu/dentistry-image-computing/">
                     <img class="img-responsive" src="images/generic-thumb.jpg" alt="">
                 </a>
@@ -119,11 +92,13 @@
                 <p>The Cevidanes Laboratory is interested is improving diagnosis and treatment of osteoarthritis of the Temporomandibular Joint. A second research area involves patients with craniofacial anomalies, particularly hemifacial microsomia patients.</p>
             </div>             
         
+        </div>
         
+        <div class="row">
 
         
             <!-- Chiego Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme3 portfolio-item" data-myorder="4">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/crse/daniel-chiego-jr-ms-phd">
                     <img class="img-responsive" src="images/chiego-thumb.png" alt="">
                 </a>
@@ -134,7 +109,7 @@
             </div>  
             
             <!-- D'Silva Lab-->
-            <div class="mix col-sm-4 col-md-4 theme2 theme4 portfolio-item" data-myorder="5">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/nisha-j-dsilva-bds-msd-phd">
                     <img class="img-responsive" src="images/dsilva-thumb.jpg" alt="">
                 </a>
@@ -145,7 +120,7 @@
             </div>  
         
             <!-- Feinberg Lab-->
-            <div class="mix col-sm-4 col-md-4 theme3 theme1 portfolio-item" data-myorder="6">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://surgery.med.umich.edu/portal/research/faculty/sefein.shtml">
                     <img class="img-responsive" src="images/feinberg-thumb.jpg" alt="">
                 </a>
@@ -154,11 +129,13 @@
                 </h3>
                 <p>The Feinberg Laboratory's main focus is the ex vivo development of a human full-thickness oral mucosa that is suitable for intraoral grafting procedures.</p>
             </div>             
+        </div>        
         
+        <div class="row">
  
         
             <!-- Fenno Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 portfolio-item" data-myorder="7">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/fenno-lab">
                     <img class="img-responsive" src="images/fenno-thumb.png" alt="">
                 </a>
@@ -169,7 +146,7 @@
             </div>    
 
             <!-- Franceschi Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme2 portfolio-item" data-myorder="8">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/renny-t-franceschi-phd">
                     <img class="img-responsive" src="images/franceschi-thumb.jpg" alt="">
                 </a>
@@ -180,7 +157,7 @@
             </div>          
             
             <!-- Geng Lab-->
-            <div class="mix col-sm-4 col-md-4 theme2 theme3 portfolio-item" data-myorder="9">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/geng-lab">
                     <img class="img-responsive" src="images/geng-thumb.jpg" alt="">
                 </a>
@@ -189,11 +166,13 @@
                 </h3>
                 <p>The Geng Laboratory is focused on how to integrate tissue regeneration with host immunity to reject metastatic cancers. Specifically, the lab is focused on how to boost T-cell antitumor responses in vivo for rejection and vaccination of nonviral cancers.</p>
             </div>             
+        </div>
         
+        <div class="row">
  
         
             <!-- Gerstner Lab-->
-            <div class="mix col-sm-4 col-md-4 theme4 theme1 portfolio-item" data-myorder="10">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/gerstner-lab">
                     <img class="img-responsive" src="images/gerstner-thumb.jpg" alt="">
                 </a>
@@ -204,7 +183,7 @@
             </div>  
             
             <!-- Giannobile Lab-->
-            <div class="mix col-sm-4 col-md-4 theme3 theme4 portfolio-item" data-myorder="11">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="giannobile">
                     <img class="img-responsive" src="images/giannobile-thumb.jpg" alt="">
                 </a>
@@ -215,7 +194,7 @@
             </div>
         
             <!-- Gonzalez Lab-->
-            <div class="mix col-sm-4 col-md-4 theme4 theme3 portfolio-item" data-myorder="12">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/crse/cariology-research-laboratory">
                     <img class="img-responsive" src="images/gonzalez-thumb.jpg" alt="">
                 </a>
@@ -224,10 +203,12 @@
                 </h3>
                 <p>The Gonzalez laboratory is interested in understanding dental caries and their clinical management. Particular interest in remineralization, fluorides, diagnosis and oral health products in general (e.g., dentifrices, rinses, toothbrushes, etc.).</p>
             </div>              
+        </div>
         
+        <div class="row">
   
             <!-- Hatch Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme3 portfolio-item" data-myorder="13">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="hatch">
                     <img class="img-responsive" src="images/hatch-thumb.jpg" alt="">
                 </a>                 
@@ -238,7 +219,7 @@
             </div>    
             
             <!-- HOPE Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme2 portfolio-item" data-myorder="14">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="hope">
                     <img class="img-responsive" src="images/hope-thumb.jpg" alt="">
                 </a>
@@ -249,7 +230,7 @@
             </div>   
 
             <!-- Inglehart Lab-->
-            <div class="mix col-sm-4 col-md-4 theme4 portfolio-item" data-myorder="16">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/marita-rohr-inglehart-dr-phil-habil">
                     <img class="img-responsive" src="images/generic-thumb3.jpg" alt="">
                 </a>
@@ -259,12 +240,14 @@
                 <p>The Inglehart group's interests focus on exploring how oral health disparities could be reduced. Efforts focus on (a) educational research and (b) behavioral/clinical research related to oral health disparities.</p>
             </div>             
             
+        </div>
 
 
         
+        <div class="row">
 
             <!-- Kaartinen Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 portfolio-item" data-myorder="17">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/kaartinen-lab">
                     <img class="img-responsive" src="images/kaartinen-thumb.jpg" alt="">
                 </a>
@@ -275,7 +258,7 @@
             </div>   
             
             <!-- Kaigler Lab-->
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="18">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/darnell-kaigler-jr-dds-phd">
                     <img class="img-responsive" src="images/generic-thumb2.jpg" alt="">
                 </a>
@@ -286,7 +269,7 @@
             </div>         
            
             <!-- Kohn Lab-->
-            <div class="mix col-sm-4 col-md-4 theme3 theme1 portfolio-item" data-myorder="19">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/kohn-lab">
                     <img class="img-responsive" src="images/kohn-thumb.jpg" alt="">
                 </a>
@@ -295,11 +278,13 @@
                 </h3>
                 <p>Dr. Kohn’s laboratory focuses on biomineralization, which is investigated by establishing structure-function relations in mineralized tissues and utilizing this information to develop biomimetic strategies to engineer tissue.</p>
             </div>              
+        </div>
         
              
         
+        <div class="row">
             <!-- Krebsbach Lab-->
-            <div class="mix col-sm-4 col-md-4 theme3 portfolio-item" data-myorder="20">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/krebsbach-lab">
                     <img class="img-responsive" src="images/krebsbach-thumb.jpg" alt="">
                 </a>
@@ -310,7 +295,7 @@
             </div>  
         
             <!-- Kuroda Lab-->
-            <div class="mix col-sm-4 col-md-4 theme3 portfolio-item" data-myorder="21">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/kuroda-lab">
                     <img class="img-responsive" src="images/kuroda-thumb.png" alt="">
                 </a>
@@ -321,7 +306,7 @@
             </div>          
             
             <!-- Laboratory of Epithelial Biology-->
-            <div class="mix col-sm-4 col-md-4 theme2 theme1 portfolio-item" data-myorder="22">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="epithelial">
                     <img class="img-responsive" src="images/epithelial-thumb.png" alt="Laboratory of Epithelial Biology">
                 </a>                
@@ -330,9 +315,11 @@
                 </h3>
                 <p>The Laboratory of Epithelial Biology focuses on the genetic and epigenetic mechanisms involved in the control of epithelial cells and stem cells during homeostasis, healing and disease.</p>
             </div>         
+        </div>
             
+        <div class="row">
                 <!-- Lei Lab-->
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="23">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="lei">
                     <img class="img-responsive" src="images/lei-thumb.jpg" alt="Lei Lab">
                 </a>                
@@ -343,7 +330,7 @@
             </div> 
 
             <!-- Liu Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 portfolio-item" data-myorder="24">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="liu">
                     <img class="img-responsive" src="images/liu-thumb.jpg" alt="">
                 </a>
@@ -354,7 +341,7 @@
             </div>              
            
             <!-- Lombaert Lab-->
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="25">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="lombaert">
                     <img class="img-responsive" src="images/lombaert-thumb.jpg" alt="">
                 </a>               
@@ -363,9 +350,11 @@
                 </h3>
                 <p>The Lombaert Lab determines how stem cells participate in the formation of branching organs and how they respond to various external and internal cues in normal, damaged or diseased environments.</p>
             </div>    
+        </div>
         
+        <div class="row">
             <!-- Ma Lab-->
-            <div class="mix col-sm-4 col-md-4 theme3 theme1 portfolio-item" data-myorder="26">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/ma-lab">
                     <img class="img-responsive" src="images/ma-thumb.jpg" alt="">
                 </a>
@@ -376,8 +365,10 @@
             </div> 
         
             <!-- McCauley Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme2 portfolio-item" data-myorder="26">
-                <a href="mccauley"><img class="img-responsive" src="images/mccauley-thumb.jpg" alt=""></a>
+            <div class="col-sm-4 col-md-4 portfolio-item">
+                <a href="mccauley">
+                    <img class="img-responsive" src="images/mccauley-thumb.jpg" alt="">
+                </a>
                 <h3>
                     <a href="mccauley">McCauley/Roca Lab<br><small>Laurie K. McCauley, DDS, MS, PhD<br>Hernan Roca, PhD</small></a>
                 </h3>
@@ -385,7 +376,7 @@
             </div> 
         
             <!-- Mishina Lab-->
-            <div class="mix col-sm-4 col-md-4 theme2 theme3 portfolio-item" data-myorder="27">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/mishina-lab">
                     <img class="img-responsive" src="images/mishina-thumb.jpg" alt="">
                 </a>
@@ -394,9 +385,11 @@
                 </h3>
                 <p>The Mishina Laboratory explores the how growth factors, particularly the Bone Morphogenetic Proteins (BMPs) function during skeletogenesis and craniofacial development. Targeted diseases are craniosynostosis, frontnasal dysplasia, midface hypoplasia, chondrodysplastic dwarfisms and heterotopic ossification.</p>
             </div>         
+        </div>
         
+        <div class="row">
             <!-- Mistretta Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme2 portfolio-item" data-myorder="28">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/bms/mistretta-lab-current-research">
                     <img class="img-responsive" src="images/mistretta-thumb.jpg" alt="">
                 </a>
@@ -407,7 +400,7 @@
             </div>         
         
             <!-- Nor Lab-->
-            <div class="mix col-sm-4 col-md-4 theme2 theme3 portfolio-item" data-myorder="29">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/crse/n%C3%B6r-lab">
                     <img class="img-responsive" src="images/nor-thumb.jpg" alt="">
                 </a>
@@ -418,7 +411,7 @@
             </div>
             
             <!-- Ono Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme3 portfolio-item" data-myorder="30">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="ono">
                     <img class="img-responsive" src="images/ono-thumb.jpg" alt="">
                 </a>
@@ -427,9 +420,11 @@
                 </h3>
                 <p>The Ono laboratory uses genetically engineered mice to study the fundamental biology of stem and progenitor cells of the bone cell lineage in growth, development and homeostasis.</p>
             </div>        
+        </div>
         
+        <div class="row">
             <!-- Ono Lab-->
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="31">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/opd/faculty-profile-dr-wanida-ono">
                     <img class="img-responsive" src="images/generic-thumb.jpg" alt="">
                 </a>
@@ -440,7 +435,7 @@
             </div>       
         
             <!-- Papagerakis Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme3 portfolio-item" data-myorder="32">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/opd/papagerakis-lab">
                     <img class="img-responsive" src="images/generic-thumb2.jpg" alt="">
                 </a>
@@ -451,7 +446,7 @@
             </div>        
             
             <!-- Pierchala Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme3 portfolio-item" data-myorder="33">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="pierchala">
                     <img class="img-responsive" src="images/pierchalapic-thumb.png" alt="">
                 </a>              
@@ -460,9 +455,11 @@
                 </h3>
                 <p>The Pierchala laboratory investigates the mechanisms of action of neuronal growth factors, focusing attention on the Glial Cell Line-Derived Neurotrophic Factor (GDNF) family and the neurotrophins.</p>
             </div>         
+        </div>
         
+        <div class="row">
             <!-- Polverini Lab-->
-            <div class="mix col-sm-4 col-md-4 theme4 theme2 portfolio-item"  data-myorder="34">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/peter-polverini-dds-dmsc">
                     <img class="img-responsive" src="images/generic-thumb2.jpg" alt="">
                 </a>              
@@ -474,7 +471,7 @@
         
         
             <!-- Rios Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 portfolio-item" data-myorder="35">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/hector-rios-dds-phd">
                     <img class="img-responsive" src="images/generic-thumb.jpg" alt="">
                 </a>              
@@ -485,7 +482,7 @@
             </div>   
             
             <!-- Ritchie Lab-->
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="36">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/crse/helena-ritchie-ms-phd">
                     <img class="img-responsive" src="images/generic-thumb2.jpg" alt="">
                 </a>              
@@ -494,21 +491,23 @@
                 </h3>
                 <p>The Ritchie laboratory is focused on studying two major dentin noncollagenous proteins, dentin sialoprotein (DSP) and physophporyn (PP) which appear to play a significant role in the conversion of uncalcified predentin to calcified dentin.</p>
             </div>             
+        </div>
         
+        <div class="row">
         
             <!-- Simmer Hu Lab-->
-            <div class="mix col-sm-4 col-md-4 theme1 theme3 portfolio-item" data-myorder="37">
-                <a href="http://dent.umich.edu/about-school/department/bms/simmer-lab">
+            <div class="col-sm-4 col-md-4 portfolio-item">
+                <a href="http://dent.umich.edu/simmer-hu-lab">
                     <img class="img-responsive" src="images/simmer-thumb.jpg" alt="">
                 </a>              
                 <h3>
-                    <a href="http://dent.umich.edu/about-school/department/bms/simmer-lab">Simmer/Hu Lab<br><small>James P. Simmer, DDS, PhD &amp; Jan Hu, BDS, PhD</small></a>
+                    <a href="http://dent.umich.edu/simmer-hu-lab">Simmer Hu Lab<br><small>James P. Simmer, DDS, PhD &amp; Jan Hu, BDS, PhD</small></a>
                 </h3>
                 <p>The Simmer Laboratory's research is in the areas of tooth development, enamel and dentin formation, biochemistry and molecular biology of amelogenins, and hypophosphatasia and amelogenesis imperfecta.</p>
             </div>         
             
             <!-- Squarize Lab-->
-            <div class="mix col-sm-4 col-md-4 theme2 portfolio-item" data-myorder="38">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="squarize">
                     <img class="img-responsive" src="images/squarize-thumb.png" alt="">
                 </a>              
@@ -519,7 +518,7 @@
             </div>   
 
             <!-- Taichman Lab -->
-            <div class="mix col-sm-4 col-md-4 theme4 portfolio-item" data-myorder="39">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/dental-hygiene/linda-susan-taichman-rdh-ms-mph-phd">
                     <img class="img-responsive" src="images/generic-thumb3.jpg" alt="">
                 </a>                 
@@ -529,10 +528,12 @@
                 <p>My group’s research concentration is on breast cancer survivors’ oral health. Breast cancer affects nearly 231,000 American women annually. Approximately 70% of breast cancers express estrogen and/or progesterone receptors.</p>
             </div>             
           
+        </div>
             
+        <div class="row">
             
             <!-- Taichman Lab -->
-            <div class="mix col-sm-4 col-md-4 theme2 theme1 portfolio-item" data-myorder="40">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="taichman">
                     <img class="img-responsive" src="images/taichman-thumb.jpg" alt="">
                 </a>                 
@@ -543,7 +544,7 @@
             </div>              
         
             <!-- Wang Lab -->
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="41">
+            <div class="col-sm-4 col-md-4 portfolio-item">
                 <a href="http://dent.umich.edu/about-school/department/pom/hom-lay-wang-dds-msd-phd">
                     <img class="img-responsive" src="images/generic-thumb.jpg" alt="">
                 </a>                 
@@ -553,7 +554,7 @@
                 <p>Research in the Wang group focuses on  periodontal and dental implant-related  clinical research with a specific focus on barrier membranes, bone grafting and growth factors.</p>
             </div> 
             
-            <div class="mix col-sm-4 col-md-4 portfolio-item" data-myorder="42"></div>
+            <div class="col-sm-4 col-md-4 portfolio-item"></div>
         </div>
 
 
@@ -581,9 +582,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
-	<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
